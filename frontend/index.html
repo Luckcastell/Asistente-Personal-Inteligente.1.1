@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot con Memoria y Archivos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Chatbot con Memoria y Archivos</h1>
+
+  <div>
+    <input type="file" id="fileInput" />
+    <button onclick="uploadFile()">Subir Archivo</button>
+    <button onclick="clearHistory()">🗑 Borrar Historial</button>
+    <button onclick="newConversation()">✨ Nueva Conversación</button>
+  </div>
+
+  <div>
+    <label>Conversaciones guardadas:</label>
+    <select id="conversationList" onchange="loadSelectedConversation()"></select>
+  </div>
+
+  <div id="chatBox"></div>
+
+  <input type="text" id="userInput" placeholder="Escribe tu mensaje..." />
+  <button onclick="sendMessage()">Enviar</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,6 +1,0 @@
-/comandos (muestra los comandos disponibles)
-/investiga[tema] (investiga y saca informacion, de internet y de las fuentes que se le den, relacionada con el tema)
-/noticias[tema] (investiga noticias relacionadas con el tema)
-/noticiasRecientes[tema] (investiga noticias recientes relacionadas con el tema)
-/sinInternet[tema] (investiga y saca informacion, de las fuentes que se le den, relacionada con el tema)
-/mailSoporte (devuelve el correo de soporte del chat bot)    inserta mail de soporte para la situacion

@@ -1,5 +1,0 @@
-Arreglar el nombrado de chats
-Ver distintos modelos de IA
-Ver el tema del almacenamiento de chats(el tipo de archivos que usa y si se puede usar una BD)
-Cambiarle el color principal y secundario
-Configurar entrenamiento para que reconozca /comandos y tire comandos disponibles
